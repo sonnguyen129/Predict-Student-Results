@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 # import shap
 import os
-# import pickle
+import pickle
 # from pickle import load, dump
 import matplotlib.pyplot as plt
 from PIL import Image
