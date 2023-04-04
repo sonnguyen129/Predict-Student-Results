@@ -3,9 +3,8 @@ import streamlit as st
 from src.model import get_prediction
 import numpy as np
 import pandas as pd
-import shap
+# import shap
 import os
-import dill as pickle
 # import pickle
 # from pickle import load, dump
 import matplotlib.pyplot as plt
