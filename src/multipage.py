@@ -28,6 +28,6 @@ class MultiPage:
 
         st.sidebar.markdown('---')
         # st.sidebar.info("### Made by:   Nguyễn Trường Sơn")
-        st.sidebar.markdown("### [Source code](https://github.com/sonnguyen129/Predict-Student-Results)")
+        # st.sidebar.markdown("### [Source code](https://github.com/sonnguyen129/Predict-Student-Results)")
         # run the app function 
         page['function']()
