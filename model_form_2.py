@@ -96,38 +96,5 @@ def app():
                 # display the plot
                 st.plotly_chart(fig)
             
-            st.markdown('---')
+            # st.markdown('---')
     
-            # with open('model/final_model.pickle', 'rb') as f:
-            #     model = pickle.load(f)
-
-            # input_attributes = np.array(attribute_vals)
-            # force_plot_path = '/plots/force_plot.png'
-
-            # shap_explainer = shap.TreeExplainer(model)
-            # shap_model_values = shap_explainer.shap_values(input_attributes)
-            # shap_model_expected_values = shap_explainer.expected_value
-
-            # shap.force_plot(shap_model_expected_values, 
-            #                 shap_model_values, 
-            #                 input_attributes,
-            #                 feats,
-            #                 show=False,
-            #                 matplotlib=True).savefig(curr_path + force_plot_path, bbox_inches='tight')
-
-            # with open('model/explainer.pickle', 'rb') as explainer_file:
-            #     explainer = pickle.load(explainer_file)
-
-            # predict_fn = lambda x: model.predict_proba(x)
-
-            # exp = explainer.explain_instance(X,
-            #                                 predict_fn, 
-            #                                 num_features=10
-            #                                 )
-            
-            # fig = exp.as_pyplot_figure()
-            # fig.savefig(curr_path + force_plot_path)
-
-            # st.subheader("Marginal contribution of input features in the prediction")
-            # force_plot_image = Image.open(curr_path + force_plot_path)
-            # st.image(force_plot_image)
